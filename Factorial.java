@@ -1,3 +1,7 @@
+// compile with javac Factorial.java
+// run with java Factorial (number)
+// expect 'java Factorial 5' >> 120, 'java Factorial 3' >> 6
+
 class Factorial {
     static int factorial(int n) {
         if (n <= 1) return 1;
